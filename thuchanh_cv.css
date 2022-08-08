@@ -1,0 +1,53 @@
+
+body {
+    background-color: burlywood;
+}
+h2{
+    margin-left: 35%;
+    color: blue;
+    font-family: "Segoe UI";
+}
+hr{
+    border: solid 2px black;
+}
+span {
+    Padding-left: 20px;
+}
+.profile{
+    display: flex;
+}
+.img{
+    width: 20%;
+}
+.text{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text span{
+    color: darkred;
+    font-style:italic;
+}
+.logo{
+    width: 20%;
+    text-align: end;
+}
+.information{
+  display: flex;
+}
+.title{
+    width: 20%;
+}
+ul{
+list-style: none;
+    font-size: large;
+    font-family: Arial;
+}
+.level{
+    list-style-type: lower-alpha;
+}
+#contact{
+    list-style-type: armenian;
+}
