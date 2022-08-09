@@ -1,0 +1,23 @@
+.border{
+    border:1px solid #868585;
+}
+body{
+    line-space: 1px;
+}
+select{
+    width: 500px;
+    height: 25px;
+    font-size: large;
+}
+.text{
+    margin-left: 25px;
+}
+.bordertitle{
+    text-align: left;
+}
+.bordertitle1{
+    text-align: center;
+    border-collapse: collapse;
+    font-family: .VnArabia;
+    font-size: 15px;
+}
