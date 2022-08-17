@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bien kieu du lieu toan tu</title>
+</head>
+<body>
+<script>
+    let vatly = prompt('Nhap vao diem Vat ly: ')
+    let hoahoc = prompt('Nhap vao diem Hoa hoc')
+    let sinhhoc = prompt('Nhap vao diem Sinh hoc')
+
+    let Vatly = parseInt(vatly)
+    let Hoahoc = parseInt(hoahoc)
+    let Sinhhoc = parseInt(sinhhoc)
+
+    let diemtong = Vatly + Hoahoc + Sinhhoc
+    let diemtb = diemtong / 3
+    alert('Tong diem : ' + diemtong)
+    alert('Diem trung binh : ' + diemtb)
+
+    let celsius = prompt('Nhap vao do C')
+    let fahrenheit = (9 * celsius + 160) / 5
+    alert('Do F: ' + fahrenheit)
+
+    let pi = 3.14
+    let r = prompt('Nhap vao ban kinh')
+    let R = parseInt(r)
+    let s = pi * R * R
+    let c = 2 * pi * R
+        alert('Dien tich hinh tron: ' + s)
+        alert('Chu vi hinh tron: ' + c)
+
+
+</script>
+</body>
+</html>

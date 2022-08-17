@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ung dung chuyen doi tien te</title>
+
+</head>
+
+<body>
+<!--<div>
+    <label>Amount</label><br>
+    <input type="number" name="amount">
+    <label>From Currency</label><br>
+    <select>
+        <option>VietNam</option>
+        <option>USD</option>
+    </select>
+</div>-->
+<form>
+    <table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th> </th>
+    </tr>
+    <tr>
+        <td><input id="amount" type="text"/></td>
+        <td>
+            <select id="from">
+                <option value="1" text="vnd">VND</option>
+                <option value="22600" text="usd">USD</option>
+                <option value="3000" text="ndt">NDT</option>
+
+            </select>
+        </td>
+        <td>
+            <select id="to">
+                <option value="22600" text="vnd">USD</option>
+                <option value="1" text="usd">VND</option>
+                <option value="3000" text="ndt">NDT</option>
+            </select>
+        </td>
+        <td>
+            <button id="alo" type="button" style="background-color: #ac66c7; color: white">Convert</button>
+            <button id="alo2" type="button" style="background-color: red; color: white">Convert</button>
+        </td>
+    </tr>
+    </table>
+</form>
+<p id ="text"></p>
+</body>
+<script src="../Thực hành/convert.js"></script>
+
+</html>
