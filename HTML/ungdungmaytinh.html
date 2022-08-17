@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Ung dung may tinh</title>
-    <script src="ungdungmaytinh.js"></script>
 </head>
 <body>
     <input id="nhapvao1" type="text" value="">
@@ -14,4 +13,30 @@
     <button style="background-color: #b3acac"  onclick="chia()">division(/)</button>
     <p id="text" style="color: red"></p>
 </body>
+<script>
+    function cong(){
+        let conga = parseFloat(document.getElementById('nhapvao1').value);
+        let congb = parseFloat(document.getElementById('nhapvao2').value);
+        let tong  = (conga + congb)
+        document.getElementById('text').innerHTML= "=" + tong
+    }
+    function tru() {
+        let conga = parseFloat(document.getElementById('nhapvao1').value);
+        let congb = parseFloat(document.getElementById('nhapvao2').value);
+        let hieu  = (conga-congb)
+        document.getElementById('text').innerHTML= "=" + hieu
+    }
+    function nhan(){
+        let conga = parseFloat(document.getElementById('nhapvao1').value);
+        let congb = parseFloat(document.getElementById('nhapvao2').value);
+        let tich  = (conga*congb)
+        document.getElementById('text').innerHTML= "=" + tich
+    }
+    function chia() {
+        let conga = parseFloat(document.getElementById('nhapvao1').value);
+        let congb = parseFloat(document.getElementById('nhapvao2').value);
+        let thuong = (conga / congb)
+        document.getElementById('text').innerHTML = "=" + thuong
+    }
+</script>
 </html>
